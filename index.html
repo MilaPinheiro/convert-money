@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Red+Hat+Display:wght@400;500;900&family=Roboto:wght@400;700&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="styles.css" />
+    <title>Convert Money</title>
+  </head>
+  <body>
+    <img class="image" src="./assets/logo.png" alt="icon-conversor" />
+    <h1>Frame</h1>
+    <main class="container">
+      <label class="inputs">
+
+         <label>
+            <p>Converter <b>de:</b></p>
+            <select class="option">
+                <option class="reais">R$ Real brasileiro</option>
+            </select >
+          </label>
+
+          <label>
+            <p>Converter <b>para:</b></p>
+            <select class="option selectCurrency">
+                <option value="dolar">US$ Dólar americado"</option>
+                <option value="euro">€ Euro</option>
+                <option value="libra">£ Libra</option>
+                <option value="bitcoin">Bitcoin</option>
+            </select>
+          </label>
+
+          <label>
+            <p>Valor:</p>
+            <input class="option" placeholder="R$ 10.000,00" />
+          </label>
+
+          <button class="convertButton">Converter</button>
+
+      </label>
+
+      <section class="icons">
+          <img src="./assets/real.png" alt="icon-real" />
+          <span>Real</span>
+          <p class="paragraph-reais">R$0</p>
+          <img src="./assets/arrow.png" alt="icon-arrow" />
+          <img class="imgMoney" src="./assets/dolar.png" alt="icon-dolar" />
+          <span class="span-name">Dólar Americano</span>
+          <p class="paragraph-dolar">US$0</p>
+      </section>
+
+    </main>
+  </body>
+  <script src="./scripts.js"></script>
+</html>
